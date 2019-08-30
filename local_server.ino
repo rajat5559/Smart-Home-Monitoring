@@ -28,7 +28,7 @@ void setup()
    delay(10);
    Serial.println("Setting SoftAP...");
    Serial.println(WiFi.softAP(softAPssid,password));   // print SSID and Passwaord of ESP8266 access point
-   delay(10);
+   delay(10);  //delay
    Serial.println(WiFi.softAPIP());
    delay(500);
    WiFi.begin(wifissid,pass);  //Connect ESP8266 with WiFi router providing internet access
