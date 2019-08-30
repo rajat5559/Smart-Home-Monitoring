@@ -8,8 +8,8 @@
  WiFiClient client;
  WiFiServer server(80);  //server at port 80
  
- unsigned long myChannelNumber = 814887;  //Replace with channelID of ThingSpeak channel ID
- const char * myWriteAPIKey = "EK4LTPHWU4GGEOVP"; //Replace with WriteAPIKey of the channel to upload the data
+ unsigned long myChannelNumber = 814287;  //Replace with channelID of ThingSpeak channel ID
+ const char * myWriteAPIKey = "EK4LTPHWW4GGEOVP"; //Replace with WriteAPIKey of the channel to upload the data
 
  const char* softAPssid = "ESP8266";    //SSID of the hotspot of ESP8266 acting as local server
  const char* password = "12345678";     //Password of the hotspot of ESP8266 acting as local server
