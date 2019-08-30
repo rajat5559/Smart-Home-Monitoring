@@ -41,7 +41,7 @@ void loop()
     if(isnan(h) || isnan(t))
     {
         Serial.println("Failed to read from DHT sensor"); // Error message
-        return;
+        return;  //exit from code
     }
     if(client.connect(server,80))  // Connect to local server
     { 
